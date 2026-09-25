@@ -18,4 +18,9 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene("lv2");
     }
+    public void LoadWin()
+    {
+        SceneManager.LoadScene("WinMenu");
+    }
+
 }
