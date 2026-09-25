@@ -6,9 +6,16 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene("SampleScene");
     }
-    public void LoadMenu ()
+    public void LoadMenu()
     {
         SceneManager.LoadScene("MainMenu");
-
+    }
+    public void LoadLv1()
+    {
+        SceneManager.LoadScene("lv1");
+    }
+    public void LoadLv2()
+    {
+        SceneManager.LoadScene("lv2");
     }
 }
